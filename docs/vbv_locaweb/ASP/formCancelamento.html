@@ -1,0 +1,21 @@
+<!--
+'-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+' Kit de Integração Visanet VBV
+' Versão: 3.0
+' Arquivo: formCancelamento.html
+' Função: Postagem dos dados para inicio do cancelamento da transação
+'-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+-->
+<form method="POST" name="cancelamento" action="https://comercio.locaweb.com.br/comercio.comp">
+
+    <!-- Parâmetros obrigatórios -->
+    <input type="text" name="identificacao" value="">
+    <input type="text" name="ambiente" value="">
+    <input type="text" name="modulo" value="VISAVBV">
+    <input type="text" name="operacao" value="Cancelamento">
+    <input type="text" name="tid" value="">
+    <input type="text" name="free" value="">
+
+    <input type="submit" value="Cancelar">
+
+</form>

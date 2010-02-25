@@ -1,0 +1,6 @@
+--- 
+:visanet: 
+  :shopid: 1001734898
+  :merchid: t-brasil1
+  :process_url: http://softa.localhost:3000/store/order/confirm
+  :top_url: http://localhost:3000

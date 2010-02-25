@@ -1,0 +1,66 @@
+.submenu
+{
+    FONT-SIZE: 10pt;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: none
+}
+.submenu:hover
+{
+    FONT-SIZE: 10pt;
+    COLOR: blue;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: none
+}
+.titulo
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: none
+}
+.subtitulo
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12pt;
+    COLOR: #003366;
+    FONT-STYLE: normal;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: none
+}
+.msgerro
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12pt;
+    COLOR: #red;
+    FONT-STYLE: normal;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: none
+}
+
+.corpo
+{
+    FONT-SIZE: 10pt;
+    COLOR: black;
+    FONT-STYLE: normal;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: none
+}
+.inferior
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR: #ff0000;
+    FONT-STYLE: normal;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: none
+}
+.td
+{
+    FONT-SIZE: 10pt;
+    COLOR: black;
+    FONT-STYLE: normal;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: none
+}

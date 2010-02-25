@@ -1,0 +1,21 @@
+<!--
+'-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+' Kit de Integração Visanet VBV
+' Versão: 3.0
+' Arquivo: formCaptura.html
+' Função: Postagem dos dados para inicio da captura transação
+'-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+-->
+<form method="POST" name="captura" action="https://comercio.locaweb.com.br/comercio.comp">
+
+    <!-- Parâmetros obrigatórios -->
+    <input type="text" name="identificacao" value="">
+    <input type="text" name="ambiente" value="">
+    <input type="text" name="modulo" value="VISAVBV">
+    <input type="text" name="operacao" value="Captura">
+    <input type="text" name="tid" value="">
+    <input type="text" name="free" value="">
+
+    <input type="submit" value="Capturar">
+
+</form>

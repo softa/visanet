@@ -1,0 +1,29 @@
+// %form{ :name => :form_pos, :method => :post, :action => "https://comercio.locaweb.com.br/visavbv/mpg.exe", :target => :vvisanet }
+// 35057916116550041001
+//    73916118200371001
+// :onsubmit => "javascript:fabrewin();",
+// , :target => "mpg_popup" http://localhost/cgi-bin/mpg.exe
+%form{ :name => :form_pos, :method => :post, :action => @config.mpg_exe_path, :target => :vvisanet }
+  %input{ :name => "tid", :value => @visa_code, :type => "hidden" }
+  %input{ :name => "bin", :value => "", :type => "hidden" }
+  %input{ :name => "order", :value => "||,-|||||CODPRO:006-000447/02", :type => "hidden" }
+  %input{ :name => "orderid", :value => @order.id, :type => "hidden" }
+  // "t-brasil1"
+  %input{ :name => "merchid", :value => @config.merchid, :type => "hidden" }
+  %input{ :name => "free", :value => "pt_BR", :type => "hidden" }
+  %input{ :name => "damount", :value => "R$50,40", :type => "hidden" }
+  %input{ :name => "language", :value => I18n.locale, :type => "hidden" }
+  // MPG_RETURN_URL
+  %center
+    %br
+    %input{ :name => "", :src => "https://comercio.locaweb.com.br/visavbv/images/card_visa.gif", :border => "0", :type => "image" }
+    %br
+    %p
+      %b
+        %font{ :color => "#000099" }
+          \&nbsp;
+          
+          Clique sobre o logo para prosseguir com a transa&ccedil;&atilde;o...
+%script
+  vvisanet=window.open('','vvisanet','toolbar=no,location=no,directories=no,status=yes,menubar=no,scrollbars=yes,resizable=yes,copyhistory=no,width=800,height=460');
+  document.form_pos.submit();

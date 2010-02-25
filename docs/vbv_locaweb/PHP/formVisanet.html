@@ -1,0 +1,31 @@
+<!--
+'-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+' Kit de Integração Visanet VBV
+' Versão: 3.0
+' Arquivo: formVisanet.html
+' Função: Postagem dos dados para inicio da transação
+'-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+-->
+<form name="visaVBV" method="POST" action="https://comercio.locaweb.com.br/comercio.comp">
+    
+    <!-- Parâmetros obrigatórios -->
+    <input type="text" name="identificacao" value="">
+    <input type="text" name="ambiente" value="">
+    <input type="text" name="modulo" value="VISAVBV">
+    <input type="text" name="operacao" value="Pagamento">
+    <input type="text" name="tid" value="">
+    <input type="text" name="orderid" value="">
+    <input type="text" name="order" value="">
+    <input type="text" name="price" value="">
+    <input type="text" name="damount" value="">
+    
+    <!-- Parâmetros adicionais -->
+    <input type="text" name="visa_antipopup" value="">
+    <input type="text" name="authenttype" value="">
+    <input type="text" name="free" value="">
+    <input type="text" name="language" value="">
+    <input type="text" name="bin" value="">
+
+    <input type="submit" name="submit" value="Enviar">
+
+</form>
